@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"rel="stylesheet" crossorigin="anonymous">
+    <title>UNIQLHO!</title>
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">UNIQLHO!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Others
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/contact/">Contact</a></li>
+                  <li><a class="dropdown-item" href="/gallery/">Collection</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="/sosmed/">Social Media</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container-fluid bg-dark text-light" style="height: 100vh">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Asset/cipung.jpeg" class="d-block w-100" alt="woy" style="height: 400px;">
+            <div class="carousel-caption">
+              <h5>Best Seller</h5>
+              <p>kostum anak gajah yang membuat Anak Anda semakin terlihat lucu</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Asset/batman.jpeg" class="d-block w-100" alt="yoi" style="height: 400px;">
+            <div class="carousel-caption">
+              <h5>Best Superhero Costume</h5>
+              <p>Membuat anda terlihat seperti pahlawan</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Asset/tyson.jpeg" class="d-block w-100" alt="eak"style="height: 400px;">
+            <div class="carousel-caption">
+              <h5>Best Hypebeast</h5>
+              <p>Pakaian hypebeast yang membuat anda terlihat semakin keren</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="row text-center align-items-center mt-4">
+        <div class="col-12" style="font-size: 250%; font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;">
+          <img class="mt-4" src="Logo.png" alt="my image" height="10%" style="width:10%">
+          <h2 class="mt-2">Welcome to <span href="/about">UNIQLHO!</span></h2>
+          <p><h5>Website Berbelanja Kesayangan Keluarga dengan <span style="color:coral">1000+</span> macam pakaian</h5></p>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-4 mt-4" style="height: fit-content;">
+        <div class="col">
+          <div class="card mt-4" style="height: fit-content">
+            <img src="Asset/polo coklat.jpeg" class="card-img-top" alt="kaos" style="height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Polo Shirt Aesthetic</h5>
+              <p class="card-text">membuat anda terlihat aesthetic dan photogenic</p>
+              <a href="/gallery" class="btn btn-dark d-block" style="height: fit-content;">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-4" style="height: fit-content">
+            <img src="Asset/sandal hiu.jpeg" class="card-img-top" alt="hiu" style="height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title text-center" >Sandal Hiu</h5>
+              <p class="card-text">sandal yang membuat kaki Anda seperti dipijat</p>
+              <a href="/gallery" class="btn btn-dark d-block" style="height: fit-content;">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-4" style="height: fit-content">
+            <img src="Asset/kaos kaki ayam.jpeg" class="card-img-top" alt="ayam" style="height: 324px">
+            <div class="card-body">
+              <h5 class="card-title text-center">Kaos Kaki Ceker</h5>
+              <p class="card-text">Anda akan terlihat semakin nyentrik</p>
+              <a href="/gallery" class="btn btn-dark d-block" style="height: fit-content;">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-4" style="height: fit-content">
+            <img src="Asset/samba.jpeg" class="card-img-top" alt="sepatu" style="height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Adidas Samba</h5>
+              <p class="card-text">membuat kaki Anda lebih tampan dari sebelumnya</p>
+              <a href="/gallery" class="btn btn-dark d-block" style="height: fit-content;">Beli</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-4 mt-4" style="height: fit-content;">
+        <div class="col">
+          <div class="card mt-4" style="height: fit-content">
+            <img src="Asset/stone island.jpeg" class="card-img-top" alt="stone" style="height: 324px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Crewneck Stone Island</h5>
+              <p class="card-text">Anda akan terlihat seperti hooligans</p>
+              <a href="/gallery" class="btn btn-dark d-block" style="height: fit-content;">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-4" style="height: fit-content">
+            <img src="Asset/celana pendek.jpeg" class="card-img-top" alt="katok" style="height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Celana Pendek Pria</h5>
+              <p class="card-text">celana pendek yang memberi sensasi dingin luar dalam</p>
+              <a href="/gallery" class="btn btn-dark d-block" style="height: fit-content;">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-4" style="height: fit-content">
+            <img src="Asset/spiderman.jpeg" class="card-img-top" alt="spider" style="height: 300px">
+            <div class="card-body">
+              <h5 class="card-title text-center">Kostum Spiderman</h5>
+              <p class="card-text">Diam seperti tiduran, bergerak menjadi Tom Holland</p>
+              <a href="/gallery" class="btn btn-dark d-block" style="height: fit-content;">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-4" style="height: fit-content">
+            <img src="Asset/jordan.jpeg" class="card-img-top" alt="nike" style="height: 300px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Nike Air Jordan</h5>
+              <p class="card-text">Melompatlah setinggi Michael Jordan</p>
+              <a href="/gallery" class="btn btn-dark d-block" style="height: fit-content;">Beli</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-4 mt-4">
+        <div class="col">
+          <div class="card mt-4" style="height: fit-content">
+            <img src="Asset/cipung.jpeg" class="card-img-top" alt="ajja" style="height: 321px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Kostum Gajah Balita</h5>
+              <p class="card-text">Pakaian #BestSeller yang membuat anak Anda akan terlihat semakin menggemaskan</p>
+              <a href="/gallery" class="btn btn-dark d-block" style="height: fit-content;">Beli</a>
+            </div>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    Disc 30%
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-4" style="height: fit-content">
+            <img src="Asset/polo buaya.jpeg" class="card-img-top" alt="buaya" style="height: 345px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Polo Crocodile</h5>
+              <p class="card-text">Kaos polo branded yang akan menunjang penampilan Anda</p>
+              <a href="/gallery" class="btn btn-dark d-block" style="height: fit-content;">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-4" style="height: fit-content">
+            <img src="Asset/sandal kelinci.jpeg" class="card-img-top" alt="kelinci" style="height: 345px">
+            <div class="card-body">
+              <h5 class="card-title text-center">Sandal Wanita Bentuk Kelinci</h5>
+              <p class="card-text">Kaki Anda akan lebih lucu dari kaki orang lain</p>
+              <a href="/gallery" class="btn btn-dark d-block" style="height: fit-content;">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-4" style="height: fit-content">
+            <img src="Asset/tyson.jpeg" class="card-img-top" alt="mike" style="height: 320px;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Jaket Stone Island X Mike Tyson</h5>
+              <p class="card-text">Dipakai ketika kedinginan, dilepas ketika masuk ring tinju</p>
+              <a href="/gallery" class="btn btn-dark d-block" style="height: fit-content;">Beli</a>
+            </div>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    Disc 50%
+          </div>
+        </div>
+      </div>
+      <a href="/gallery" class="btn btn-danger d-block text-center mt-4" style="height: min-content;">Our Collection</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
